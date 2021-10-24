@@ -1,0 +1,40 @@
+{
+  "name": "html-starter-pack",
+  "version": "1.0.0",
+  "description": "html-starter-pack",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --env development",
+    "build": "webpack --env production",
+    "watch": "webpack --env development --watch",
+    "start": "webpack serve --env development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DartMoon/html-starter-pack.git"
+  },
+  "author": "Kyrylo Storozhenko <storogenkokirill@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DartMoon/html-starter-pack/issues"
+  },
+  "homepage": "https://github.com/DartMoon/html-starter-pack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.4.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.2.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
