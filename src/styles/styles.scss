@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+
+    a {
+        color: aliceblue;
+        border-radius: 20px;
+        padding: 2em;
+        background: olive;
+    }
+}
